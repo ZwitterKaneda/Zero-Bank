@@ -1,0 +1,14 @@
+{
+  "name": "zero-bank",
+  "version": "1.0.0",
+  "description": "Practice Testing - Daniel Díaz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Díaz",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.9.0"
+  }
+}
