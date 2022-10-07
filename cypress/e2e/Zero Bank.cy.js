@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+
 import { TransferFundsPage } from "../support/Pages/TransferFundsPage"
 import { LoginPage } from "../support/Pages/LoginPage"
 import { PayBillsPage } from "../support/Pages/PaybillsPage"
@@ -17,15 +18,11 @@ describe('Practice Testing', () => {
     cy.visit('');
     transferfundspage.CompleteTransferFunds();
     transferfundspage.FinishAndassertion();
-
   });
 
   it('Pay Bills', () => {
     cy.visit('');
     paybillspage.CompletePaybillsPageForms();
     paybillspage.FinishAndassertion();
-
-
   });
-
 });
